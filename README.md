@@ -124,6 +124,7 @@ resource "aws_internet_gateway" "igw" {
 Now we need to create Private and Public subnets. 
 
 > PUBLIC SUBNET :  If a subnet's traffic is routed to an internet gateway, the subnet is known as a public subnet. 
+
 > PRIVATE SUBNET : If a subnet doesn't have a route to the internet gateway, the subnet is known as a private subnet.
 
 #### Creating public subnet
