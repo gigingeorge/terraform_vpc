@@ -356,7 +356,7 @@ value = aws_route_table.private.id
 terraform validate
 ```
 #### Terraform Plan
-> #### Terraform Plan
+
 > The terraform plan command provides a preview of the actions that Terraform will take in order to configure resources per the configuration file. 
 ```sh
 terraform plan
