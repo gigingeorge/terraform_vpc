@@ -203,7 +203,7 @@ resource "aws_subnet" "private3" {
 
 > cidrsubnet calculates a subnet address within given IP network address prefix.
 ```sh
-> cidrsubnet(prefix, newbits, netnum) 
+ cidrsubnet(prefix, newbits, netnum) 
 ```
 >   -  prefix must be given in CIDR notation
 >   - newbits is the number of additional bits with which to extend the prefix. For example, if given a prefix ending in /16 and a newbits value of 4, the resulting subnet address will have length /20.
